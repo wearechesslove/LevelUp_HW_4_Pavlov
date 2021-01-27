@@ -1,0 +1,269 @@
+body {
+  background-color: #0b1d26;
+  margin: 0;
+}
+
+.gradient {
+  background: linear-gradient(0deg, rgba(11,29,38,1) 29%, rgba(11,29,38,0) 62%);
+  position: absolute;
+  height: 1890px;
+  width: 100%;
+}
+
+h4 {
+  color: #FBD784;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+h4:before {
+  content: "";
+  width: 72px;
+  height: 2px;
+  display: inline-block;
+  background-color: #FBD784;
+  position: relative;
+  top: -4px;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 43px;
+  color: rgba(255,255,255,1);
+}
+
+p {
+font-size: 18px;
+color: rgba(255,255,255,1);
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.whole-page {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url(./pictures/Main-back-picture.jpg);
+  background-repeat: no-repeat;
+}
+
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 64px 80px 0;
+}
+
+.main-header .navigation ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-header .navigation ul li {
+  margin: 0 20px;
+}
+
+.main-header a {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+.main-header .account a {
+  display: block;
+  background-image: url(./pictures/cart.png);
+  background-repeat: no-repeat;
+  padding-left: 32px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 200px 80px 850px;
+}
+
+.hero .social {
+  padding-top: 67px;
+}
+
+.hero .social .text {
+  position: relative;
+  top: -40px;
+  left: -24px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  transform: rotate(90deg); 
+}
+
+.hero .social a {
+  margin-top: 24px;
+  display: block;
+}
+
+.hero .navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero .navigation ul li {
+text-align: right;
+border-right: 3px solid rgba(255,255,255,0.5);
+padding: 19px 32px 19px 0;
+}
+
+.hero .navigation ul a {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  padding-right: 32px;
+}
+
+.hero .navigation ul li.active,
+.hero .navigation ul li:hover {
+  border-right-color: white;
+}
+
+.title {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.title h1 {
+
+color: rgba(255,255,255,1);
+font-size: 88px;
+line-height: 100px;
+text-align: left;
+
+}
+
+.title a {
+  display: block;
+  background-image: url(./pictures/arrow_downward.png);
+  background-repeat: no-repeat;
+  background-position: 105px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 200px auto 0 auto;
+}
+
+.item .text {
+position: relative;
+padding-top: 140px;
+padding-left: 150px;
+padding-right: 115px;
+}
+
+.item .text .number {
+position: absolute;
+top: 0;
+left: 0;
+font-family: Roboto;
+font-weight: bold;
+font-size: 240px;
+line-height: 240px;
+color: white;
+opacity: 0.1;
+}
+
+.item img {
+  width: 566px;
+  max-width: 566px;
+}
+
+.item-reverse {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: 1400px;
+  margin: 200px auto 0 auto
+}
+
+.item-reverse img {
+  width: 556px;
+  max-width: 557px;
+}
+
+
+footer li {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+
+}
+
+.title-colomn {
+display: flex;
+justify-content: space-between;
+width: 1400px;
+margin: 200px auto 0 auto;
+}
+
+.name-right-block {
+  display: flex;
+  justify-content: space-between;
+  display: contents;
+}
+
+.name-right-block p {
+  color: rgba(251,215,132,1);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.name-second-colomn p {
+  padding: 0px 0px 0px 514px;
+
+}
+
+.footer-block-row {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0px auto 0 auto;
+}
+
+.footer-block-right {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+  display: contents;
+}
+
+.footer-block-left {
+  margin 0 50px;
+}
