@@ -195,6 +195,7 @@ opacity: 0.1;
 .item img {
   width: 566px;
   max-width: 566px;
+  position: relative;
 }
 
 .item-reverse {
